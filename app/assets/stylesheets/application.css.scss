@@ -28,29 +28,19 @@ h1, h2, h3 {
   background: -moz-linear-gradient(left, #348AC7, #7474BF);
   background: -o-linear-gradient(left, #348AC7, #7474BF);
   background: linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .navbar {
   border: none;
 }
 
-.navbar-default .navbar-brand{
-  color: white;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color:white;
-  opacity: 0.75;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
 .home-callout{
